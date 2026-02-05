@@ -1,13 +1,49 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&family=Passion+One:wght@400;700;900&family=Playwrite+NO:wght@100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 @font-face {
-    font-family: f;
-    src: url();
+    font-family: 'Luxurious Roman';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&family=Passion+One:wght@400;700;900&family=Playwrite+NO:wght@100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-weight: normal;
+    font-style: normal;
 }
 
+:root{
+    --cor-verde: #33E111;
+    --cor-azul: #3619E1;
+    --cor-laranja: #E07114;
+    --cor-azul-mais-fraca: #331db2d2;
+    --cor-laranja-mais-fraca: #ec6c03b8;
+}
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+header{
+
+}
+
+h1{
+    font-family: Luxurious Roman;
+}
+
+nav{
+
+}
+
+nav > a{
+
+}
+
+main{
+
+}
+
+footer{
+    
 }
