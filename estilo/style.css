@@ -11,10 +11,10 @@
 }
 
 :root{
-    --cor-verde: #33E111;
-    --cor-azul: #3619E1;
+    --cor-verde: #2bff00bb;
+    --cor-azul: #351dbc;
     --cor-laranja: #E07114;
-    --cor-azul-mais-fraca: #331db2d2;
+    --cor-azul-mais-fraca: #0992edd2;
     --cor-laranja-mais-fraca: #ec6c03b8;
 }
 
@@ -24,20 +24,44 @@
     box-sizing: border-box;
 }
 
-header{
+body{
+    background-color: var(--cor-verde);
+}
 
+header{
+    background-color: var(--cor-azul-mais-fraca);
+    
+    padding: 30px;
 }
 
 h1{
     font-family: Luxurious Roman;
+    font-weight: bolder;
 }
 
-nav{
-
+menu{
+    display: none;
 }
 
-nav > a{
+menu > a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+}
 
+menu > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor-verde);
+}
+
+span#burger{
+    background-color: var(--cor-laranja-mais-fraca);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
 }
 
 main{
@@ -45,5 +69,5 @@ main{
 }
 
 footer{
-    
+    background-color: var(--cor-azul-mais-fraca);
 }
