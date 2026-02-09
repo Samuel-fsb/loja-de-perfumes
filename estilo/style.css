@@ -16,6 +16,7 @@
     --cor-laranja: #E07114;
     --cor-azul-mais-fraca: #0992edd2;
     --cor-laranja-mais-fraca: #ec6c03b8;
+    --cor-fundo: #030303e4;
 }
 
 *{
@@ -25,13 +26,17 @@
 }
 
 body{
-    background-color: var(--cor-verde);
+    background-color: var(--cor-fundo);
 }
 
 header{
     background-color: var(--cor-azul-mais-fraca);
     
     padding: 30px;
+}
+
+p{
+    color: white;
 }
 
 h1{
@@ -81,6 +86,22 @@ span#burger{
 main{
     
 
+}
+
+section.foto{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+img.fotos{
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+article{
+    margin: 6px 0px 50px 0px;
+    text-align: center;
 }
 
 footer{
