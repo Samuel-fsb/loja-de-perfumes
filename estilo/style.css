@@ -15,7 +15,7 @@
     --cor-azul: #351dbc;
     --cor-laranja: #E07114;
     --cor-azul-mais-fraca: #0992edd2;
-    --cor-laranja-mais-fraca: #ec6c03b8;
+    --cor-laranja-mais-fraca: #ff7300;
     --cor-fundo: #030303e4;
 }
 
@@ -106,4 +106,24 @@ article{
 
 footer{
     background-color: var(--cor-azul-mais-fraca);
+    height: 1220px;
+    padding: 80px;
+}
+
+section#footer{
+    margin: 50px 0px 0px -70px;
+}
+
+section > p{
+    font-size: larger;
+}
+
+footer > section > ul > li > a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+footer > section > ul > li > a:hover{
+    color: var(--cor-laranja-mais-fraca);
 }
