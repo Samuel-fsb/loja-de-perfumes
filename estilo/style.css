@@ -39,8 +39,9 @@ h1{
     font-weight: bolder;
 }
 
-menu{
+menu#itens{
     display: none;
+    display: flex;
 }
 
 menu > a{
@@ -48,6 +49,7 @@ menu > a{
     cursor: pointer;
     padding: 10px;
     border-radius: 8px;
+    flex-direction: column;
 }
 
 menu > a:hover{
@@ -58,13 +60,16 @@ menu > a:hover{
 span#burger{
     background-color: var(--cor-laranja-mais-fraca);
     color: white;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     padding: 10px;
     display: block;
+    margin: -30px -40px;
+    width: 40px;
 }
 
 main{
+    
 
 }
 
