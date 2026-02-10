@@ -106,7 +106,7 @@ article{
 
 footer{
     background-color: var(--cor-azul-mais-fraca);
-    height: 1220px;
+    height: 1100px;
     padding: 80px;
 }
 
@@ -116,6 +116,24 @@ section#footer{
 
 section > p{
     font-size: larger;
+}
+
+#redes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: -60px 0px 0px -70px;
+}
+
+nav#redes > a{
+    font-size: 35px;
+    color: white;
+}
+
+nav#redes > a:hover{
+    color: var(--cor-laranja-mais-fraca);
 }
 
 footer > section > ul > li > a{
