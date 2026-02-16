@@ -28,6 +28,7 @@
 
 body{
     background-color: var(--cor-fundo);
+    background-color: white;
 }
 
 header{
@@ -37,7 +38,7 @@ header{
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 h1{
@@ -85,7 +86,6 @@ span#burger{
 }
 
 main{
-    
 
 }
 
